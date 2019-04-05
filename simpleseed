@@ -1,5 +1,5 @@
 for (i = 1; i <=10; ++1) {
-job('Job-$1')
+job("Job-$1")
 {
   parameters {
     stringParam('Object','Undefined','This parameter describes the type of Object')
