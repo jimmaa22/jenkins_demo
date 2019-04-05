@@ -1,0 +1,13 @@
+node {
+    stage('Create File ') {
+    sh 'touch newFile'
+     }
+    stage ('Write') {
+    git 'https://github.com/jimmaa22/jenkins_demo.git'
+    sh 'echo  "Hello World" > newFile'
+    }
+    stage('Print') {
+    sh 'cat simpleseed '
+    sh 'cat newFile'
+    }
+}
