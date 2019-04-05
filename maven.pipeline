@@ -1,6 +1,6 @@
 node {
     stage('Clone') {
-    git 'https://github.com/jimmaa22/jenkins_demo.git'
+    git 'https://github.com/jimmaa22/maven-simple.git'
      }
     stage ('Package') {
     sh 'mvn package'
