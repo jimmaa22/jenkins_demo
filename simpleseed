@@ -1,4 +1,4 @@
-for (i = 1; i <=10; ++1) {
+for (i = 1; i <=10; ++i) {
 job("Job-$i")
 {
   parameters {
