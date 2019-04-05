@@ -8,4 +8,7 @@ node {
     stage('Archive') {
     archiveArtifacts 'target/*.jar'
     }
+    stage('Print') {
+    sh 'ls -lR'
+    }
 }
